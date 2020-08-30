@@ -1,0 +1,31 @@
+/*Class : CSE 1321L
+Section : 4
+Term : fall 2020
+Instructor : Imad Ghandour
+Name : Hanna Wilson
+Lab# : 2
+*/
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    string name, anotherName, verb, adverb;
+
+    Console.WriteLine ("enter a name");
+    name = Console.ReadLine();
+
+    Console.WriteLine("enter another name");
+    anotherName = Console.ReadLine();
+
+    Console.WriteLine("enter a verb ");
+    verb = Console.ReadLine();
+
+    Console.WriteLine(" enter an adverb");
+    adverb = Console.ReadLine();
+
+    Console.WriteLine("Once upone a time, there was a person named " + name + " who had a child named " + anotherName + ". This child would " + verb);
+     Console.WriteLine(adverb + " while singing to strangers.");
+
+    Console.ReadLine();
+  }
+}
