@@ -1,0 +1,25 @@
+/*Class : CSE 1321L
+Section : 4
+Term : fall 2020
+Instructor : Imad Ghandour
+Name : Hanna Wilson
+Lab# : 2
+*/
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    double height, width, area, perimeter;
+   Console.Write("enter a width : ");
+   width = Convert.ToDouble(Console.ReadLine());
+
+   Console.Write("enter a height : ");
+   height = Convert.ToDouble(Console.ReadLine());
+
+   area = width * height;
+   perimeter = 2 *(width + height);
+
+   Console.WriteLine("\n The area is " + area);
+   Console.WriteLine("\n The perimeter is " + perimeter);
+  }
+}
