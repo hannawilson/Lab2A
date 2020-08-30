@@ -1,0 +1,20 @@
+/*Class : CSE 1321L
+Section : 4
+Term : fall 2020
+Instructor : Imad Ghandour
+Name : Hanna Wilson
+Lab# : 2
+*/
+using System;
+
+class MainClass {
+  static void Main (string [] args){
+    Console.WriteLine("___*___");
+    Console.WriteLine("__*_*__");
+    Console.WriteLine("_*_*_*_");
+    Console.WriteLine("*_*_*_*");
+    Console.WriteLine("_*_*_*_");
+    Console.WriteLine("__*_*__");
+    Console.WriteLine("___*___");
+  }
+}
